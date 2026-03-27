@@ -1,0 +1,85 @@
+<?php
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Derivadas</title>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-4">
+
+
+<div class="p-5 mb-4 bg-light rounded-3">
+<div class="container-fluid py-5">
+<h1 class="display-5 fw-bold">Derivadas</h1>
+<p class="col-md-8 fs-5">
+La derivada es el resultado de un límite y representa la pendiente de la recta tangente
+a la gráfica de una función en un punto.
+</p>
+
+<button class="btn btn-primary btn-lg"
+onclick="document.getElementById('info').innerText='Aquí aprenderás más sobre derivadas'">
+Aprender más
+</button>
+
+</div>
+</div>
+
+<div class="row">
+
+<div class="col-md-4">
+<h2>¿Qué es?</h2>
+<p>
+La derivada mide cómo cambia una función respecto a una variable.
+Indica la rapidez de cambio en un punto específico.
+</p>
+<button class="btn btn-secondary"
+onclick="document.getElementById('info').innerText='La derivada es el resultado de un límite y representa la pendiente de la recta tangente en un punto'">
+Ver detalles »
+</button>
+</div>
+
+<div class="col-md-4">
+<h2>Fórmula</h2>
+<p>
+Se calcula como el límite del cociente de incrementos:
+(f(a + Δx) - f(a)) / Δx cuando Δx tiende a 0.
+</p>
+<button class="btn btn-secondary"
+onclick="document.getElementById('info').innerText='Δy = f(a + Δx) - f(a) y la derivada es (f(a + Δx) - f(a)) / Δx'">
+Ver detalles »
+</button>
+</div>
+
+<div class="col-md-4">
+<h2>Importancia</h2>
+<p>
+Permite analizar el comportamiento de funciones, encontrar máximos, mínimos
+y estudiar el movimiento en física.
+</p>
+<button class="btn btn-secondary"
+onclick="document.getElementById('info').innerText='Si Δx se hace muy pequeño, la recta secante se vuelve tangente'">
+Ver detalles »
+</button>
+</div>
+
+</div>
+
+
+<div id="info" class="mt-4 p-3 bg-light rounded">
+Aquí aparecerá la información al presionar un botón
+</div>
+
+<footer class="pt-3 mt-4 text-muted border-top">
+    Fuente utilizada:Tlahuizcalpantecuhtli Ruiz Villalobos,Taller de pensamiento variacional 2 DGB
+</footer>
+
+</div>
+
+</body>
+</html>
